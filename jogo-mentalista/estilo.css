@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto&display=swap');
+
+body {
+    background-image: url("_imagens/cerebro-azul.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin: 0px;
+}
+div.container {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+}
+header#cabecalho {
+    margin-top: 0px;
+    border-top: 10px solid #063583;
+}
+h1#page-title {
+    font-size: 25pt;
+    background-color: rgba(6,53,131, .5);
+    max-width: 175px;
+    margin: 35px auto 0px auto;
+    padding: 3px;
+    box-shadow: 1px 1px 15px black;
+}
+h2#raphinha-logo {
+    font-family: 'Inconsolata', monospace;
+    font-size: 30pt;
+    margin: 0px auto;
+    padding: 3px;
+}
+h2#raphinha-logo span#raphinha {
+    background-color: rgba(6,53,131, .5);
+    padding: 3px;
+    box-shadow: 1px 1px 7px white;
+}
+h2#raphinha-logo span#show {
+    background-color: #063583;
+    text-decoration: underline;
+    padding: 3px;
+    box-shadow: 1px 1px 7px white;
+}
+p#page-subtitle {
+    font-size: 15pt;
+    text-decoration: underline;
+    background-color: rgba(4,32,69, .5);
+    box-shadow: 1px 1px 15px black;
+    max-width: 450px;
+    margin: 0px auto 25px auto;
+    padding: 30px 3px;
+    
+}
+label {
+    background-color: rgba(4,32,69, .5);
+    padding: 3px;
+    box-shadow: 1px 1px 7px white;
+}
+input {
+    margin: 15px;
+    padding: 3px;
+    border-radius: 6px;
+}
+button {
+    padding: 3px;
+    border-radius: 4px;
+}
+a#site-rapha {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 15pt;
+    text-decoration: none;
+    color: white;
+    transition: all .5s;
+}
+a#site-rapha:hover {
+    font-size: 20pt;
+    text-decoration: underline;
+}
+h2#resultado {
+    background-color: black;
+}
