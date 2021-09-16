@@ -2,7 +2,7 @@
 
  Desafio proposto na Imersão Dev da Alura.
 
- ![Cérebro Azul](_imagens/cerebro-azul.jpg)
+ ![Cérebro Azul](jogo-mentalista/_imagens/cerebro-azul.jpg)
 
 ## Uso:
 - Coloque um número de 0 a 30 no input
